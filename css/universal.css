@@ -1,0 +1,171 @@
+/*
+*************************
+*********UNIVERSAL**********
+*************************
+*/
+
+html, body {
+	width: 100%;
+}
+
+body {
+	font-family: sans-serif;
+	background: #e3e3e3;
+}
+
+/*
+*************************
+*********NAVBAR HEADER**********
+*************************
+*/
+
+header {
+	height: 0px;
+	letter-spacing: -1px;
+}
+
+.header h3 {
+	background: url("../img/__custom_showroom_1538232591.png") no-repeat;
+	background-size: 100%;
+	height: 175px;
+	text-indent: -999px;
+	margin-bottom: 0px;
+}
+
+.redBar {
+	background: #C9001A;	/*Color: #C9001A*/
+	text-indent: -9999px;
+	font-size: 26px;
+	position: relative;
+	top: 136px;
+	opacity: 0.96;
+	border-bottom: 2px solid #A5001E;
+}
+
+.GPRBlogo {
+	background: url("../img/boisgp2k.png") no-repeat;
+	background-position: 0px -85px;
+	color: white;
+	position: relative;
+	bottom: 30px;
+	right: 15px;
+	font-size: 45px;
+	text-indent: -9999px;
+	margin-bottom: 10px;
+	display: block;
+	width: 461px;
+}
+
+.tagline {
+	position: relative;
+	color: white;
+	bottom: 39px;
+	left: 200px;
+	font-size: 20px;
+	width: 25%;
+}
+
+nav {
+	padding-top: 0px;
+	position: relative;
+	top: 77px;
+}
+
+nav li {
+	display: inline;
+	margin-left: -4px;
+	text-transform: capitalize;
+	font-size: 26px;
+	border-right: 2px solid white;
+}
+
+nav li a {
+	text-decoration: none;
+	color: white;
+	background-size: 200%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+
+nav li a:hover {
+	background: #C9001A;
+	border-bottom: 2px solid red;
+}
+
+nav li a:active {
+	filter: saturate(125%);
+}
+
+nav li:last-child {
+	border: none;
+}
+
+footer {
+	margin-top: 5px;
+}
+
+/*
+*************************
+*********MAIN CONTENT AREA**********
+*************************
+*/
+
+.photo:hover, .modalOption:hover {
+	cursor: pointer;
+	opacity: 0.8;
+	border: 3px solid #2196F3;
+	-webkit-transition: opacity 0.25s, border 0.25; /*Safari*/
+	transition: opacity 0.25s, border 0.25s;
+	transition-timing-function: ease-out;
+}
+
+li {
+	margin-left: 0px;
+}
+
+h1 {
+	text-transform: capitalize;
+}
+
+#main {
+	margin-top: 90px;
+	height: 100%;
+}
+
+.welcome {
+	background: white;
+	font-size: 16px;
+	margin: 0px;
+	padding: 2px 10px;
+}
+
+.welcome li {
+	font-size: 14px;
+	font-weight: none;
+	list-style: none;
+	margin-left: 5px;
+	margin-right: 10px;
+	border-right: 2px solid white;
+	display: inline;
+}
+
+.welcome a {
+	text-decoration: none;
+	color: black;
+}
+
+.welcome li a:after {
+	content: ">";
+	margin-left: 20px;
+}
+
+.welcome li:last-child a {
+	font-weight: bold;
+}
+
+.welcome li:last-child a:after {
+	content: "";
+}
